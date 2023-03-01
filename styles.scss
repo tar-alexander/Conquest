@@ -106,10 +106,6 @@ a {
         color: #555248;
     }
 
-    &__logo {}
-
-    &__menu {}
-
     &__list {
         display: flex;
         width: 422px;
@@ -125,15 +121,11 @@ a {
         }
     }
 
-    &__item {}
-
     &__actions {
         display: flex;
         justify-content: space-between;
         width: 99px;
     }
-
-    &__btn {}
 
     &__notification {
         position: relative;
@@ -212,8 +204,6 @@ a {
 
         color: $dark_txt;
     }
-
-    &__btn {}
 
     &__img {
         position: relative;
@@ -312,8 +302,7 @@ a {
     &__btn:hover {
         color: #0E121E;
         border-bottom: 1px solid #0E121E;
-        transition: color 0.3s ease 0s;
-        transition: border-bottom 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
     }
 
     &__list {
@@ -328,8 +317,6 @@ a {
         flex-direction: column;
         padding: 36px 45px;
     }
-
-    &__info {}
 
     &__name {
         font-family: 'Playfair Display';
@@ -388,8 +375,6 @@ a {
         display: flex;
         flex-direction: column;
     }
-
-    &__list {}
 
     &__item {
         display: flex;
@@ -504,8 +489,6 @@ a {
             margin-bottom: 0;
         }
     }
-
-    &__link {}
 
     &__right {
         display: flex;
