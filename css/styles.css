@@ -254,8 +254,7 @@ a {
 .goods__btn:hover {
   color: #0E121E;
   border-bottom: 1px solid #0E121E;
-  transition: color 0.3s ease 0s;
-  transition: border-bottom 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 .goods__list {
   display: flex;
